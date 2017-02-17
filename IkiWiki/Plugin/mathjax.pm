@@ -65,6 +65,8 @@ sub _scripttag {
       . '<script async="async" type="text/javascript" '
       . 'src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config='
       . $config
+      . ','
+      . '/MathJax/config/local/local.js'
       . '"></script>';
 }
 
